@@ -58,7 +58,7 @@ async function checkAPIHealth() {
 
         if (response.ok) {
             const data = await response.json();
-            if (data.status === 'healthy' && data.model_loaded) {
+            if (data.status === 'healthy' && data.models_loaded) {
                 statusIndicator.textContent = '●';
                 statusIndicator.style.color = '#059669';
                 statusText.textContent = 'API conectada';
