@@ -77,6 +77,7 @@ body::before {
     display: flex;
     flex-direction: column;
     height: 90vh;
+min-height: 600px;
     max-height: 900px;
     overflow: hidden;
     overflow-x: hidden;
