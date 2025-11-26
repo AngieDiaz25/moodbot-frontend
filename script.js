@@ -1,5 +1,5 @@
 // Configuración de la API
-const API_URL = 'https://moodbot-api-7ytn.onrender.com';
+const API_URL = 'https://moodbot-production.up.railway.app';
 
 // Elementos del DOM
 const userInput = document.getElementById('userInput');
