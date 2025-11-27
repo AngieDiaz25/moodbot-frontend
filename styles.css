@@ -205,8 +205,8 @@ min-height: 600px;
 
 .info-card {
     background: white;
-    padding: 10px 14px;
-    border-radius: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
     text-align: center;
     border: 2px solid var(--input-border);
     transition: all 0.2s;
@@ -239,6 +239,7 @@ min-height: 600px;
 }
 
 .card-text {
+    font-size: 13px;
     font-size: 13px;
     font-weight: 600;
     color: var(--text-primary);
