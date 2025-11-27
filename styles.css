@@ -246,10 +246,11 @@ min-height: 600px;
 }
 
 .disclaimer {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--text-secondary);
     background: #fef6ee;
-    padding: 12px;
+    padding: 8px 12px;
+
     border-radius: 6px;
     margin-top: 16px;
     border-left: 3px solid #ce6a51;
@@ -473,7 +474,7 @@ min-height: 600px;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
-    font-size: 11px;
+    font-size: 10px;
     color: var(--text-light);
 }
 
@@ -588,7 +589,7 @@ min-height: 600px;
     .user-avatar {
         width: 36px;
         height: 36px;
-        font-size: 11px;
+        font-size: 10px;
     }
 }
 @keyframes floatBubbles {
