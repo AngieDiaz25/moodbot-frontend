@@ -387,3 +387,30 @@ document.head.appendChild(style);
 console.log('MoodBot inicializado - Versión Profesional');
 console.log('API URL:', API_URL);
 console.log('Versión: 1.0.0'); 
+
+// Función para limpiar el chat
+function resetChat() {
+    // Limpiar mensajes del chat
+    chatMessages.innerHTML = '';
+    
+    // Limpiar historial de conversación
+    conversationHistory = [];
+    
+    // Mostrar mensaje de bienvenida nuevamente
+    if (welcomeMessage) {
+        welcomeMessage.style.display = 'flex';
+    }
+    
+    // Limpiar input
+    userInput.value = '';
+    updateCharCount();
+    autoResizeTextarea();
+    toggleSendButton();
+}
+
+// Agregar event listener al header
+const header = document.querySelector('.header');
+if (header) {
+    header.style.cursor = 'pointer';
+    header.addEventListener('click', resetChat);
+}
