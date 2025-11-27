@@ -179,6 +179,7 @@ min-height: 600px;
     padding: 20px;
     border-radius: 12px;
     border-left: 3px solid #ce6a51;
+    white-space: pre-line;
 }
 
 .message-content h2 {
@@ -625,6 +626,7 @@ min-height: 600px;
 /* 2. MEJOR CONTRASTE */
 .message-content {
     color: #1e293b !important;
+    white-space: pre-line;
 }
 
 .message-content p {
