@@ -199,8 +199,8 @@ min-height: 600px;
 .info-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 12px;
-    margin: 20px 0;
+    gap: 8px;
+    margin: 12px 0;
 }
 
 .info-card {
@@ -246,7 +246,7 @@ min-height: 600px;
 }
 
 .disclaimer {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--text-secondary);
     background: #fef6ee;
     padding: 12px;
@@ -644,10 +644,15 @@ min-height: 600px;
 }
 
 .welcome-message h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
     color: #0f172a !important;
 }
 
 .welcome-message p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
     color: #334155 !important;
 }
 
